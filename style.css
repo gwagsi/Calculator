@@ -1,0 +1,60 @@
+.container {
+    background-color: #282626;
+    margin: auto;
+    width: 300px;
+
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 15px;
+
+
+}
+
+.answer {
+
+    height: 20%;
+}
+
+.calculate {
+
+    /* background-color: aliceblue; */
+    height: 10%;
+    border-bottom: 2px solid red;
+}
+
+.memory {
+    display: flex;
+    height: 3%;
+    margin-left: 10px;
+    margin-right: 10px;
+
+
+}
+
+.control-top {
+    flex: auto;s
+
+
+}
+
+.keys {
+
+    height: 67%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.key {
+
+    border-radius: 12px;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 5px;
+}
+
+* {
+    color: white;
+    
+}
